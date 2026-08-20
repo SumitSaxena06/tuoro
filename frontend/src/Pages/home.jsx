@@ -1,9 +1,14 @@
+import Searchbar from "../components/Searchbar";
+
 export default function Home(){
     return(
-        <div className="bg-gray-100 min-h-screen">
-            <div>
-                <h1>Home Page Here !!</h1>
-            </div>
+        <div>
+            <section className="text-center py-20">
+            <h1 className="text-5xl font-bold py-3"> Find the best techers Around the Community</h1>
+            <h2>learn and Acheive Excellency from The Best!</h2>
+
+            <Searchbar/>
+            </section>
         </div>
     )
 }   
