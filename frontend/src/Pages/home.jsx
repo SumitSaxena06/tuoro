@@ -20,7 +20,7 @@ export default function Home(){
     return(
         <div>
             <section className="text-center py-20">
-            <h1 className="text-5xl font-bold py-3"> Find the best techers Around the Community</h1>
+            <h1 className="text-5xl font-bold py-3 font-sans"> Find the best techers Around the Community</h1>
             <h2>learn and Acheive Excellency from The Best!</h2>
 
             <Searchbar/>
@@ -50,6 +50,34 @@ export default function Home(){
                     ))}
                 </div>
             </section>
+
+            <section className=" py-12">
+            <h1 className="text-5xl font-bold text-center mb-10">Why tuoro.</h1>
+
+            <div className="flex justify-center gap-12 px-8">
+                {/* Feature 1 */}
+                <div className="flex flex-col items-center text-center p-6 rounded-xl bg-white shadow-sm hover:shadow-md transition duration-300">
+                <span className="text-4xl mb-3">🔍</span>
+                <h3 className="text-xl font-semibold text-gray-800">Find Talent</h3>
+                <p className="text-gray-600 mt-2 text-sm">Discover skilled tutors tailored to your needs.</p>
+                </div>
+
+                {/* Feature 2 */}
+                <div className="flex flex-col items-center text-center p-6 rounded-xl bg-white shadow-sm hover:shadow-md transition duration-300">
+                <span className="text-4xl mb-3">⚖️</span>
+                <h3 className="text-xl font-semibold text-gray-800">Compare</h3>
+                <p className="text-gray-600 mt-2 text-sm">Evaluate tutors side by side with ease.</p>
+                </div>
+
+                {/* Feature 3 */}
+                <div className="flex flex-col items-center text-center p-6 rounded-xl bg-white shadow-sm hover:shadow-md transition duration-300">
+                <span className="text-4xl mb-3">🏆</span>
+                <h3 className="text-xl font-semibold text-gray-800">Learn from The Best</h3>
+                <p className="text-gray-600 mt-2 text-sm">Get guidance from top-rated professionals.</p>
+                </div>
+            </div>
+            </section>
+
         </div>
     )
 }   
