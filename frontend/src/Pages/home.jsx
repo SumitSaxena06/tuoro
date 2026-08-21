@@ -13,9 +13,9 @@ export default function Home(){
     ];
     const Tutors = [
         {name : "Sumit Saxena", subject:"Data Structures and Algorithms", price:"16", rating:"4.9"},
-        {name : "Adarsh BKL", subject:"Communications ( to girls ) ", price:"18", rating:"4.2"},
-        {name : "Aditya", subject:"Versatile in UPSC Prep", price:"24", rating:"4.6"},
-        {name : "Yash Sharma", subject:"ECE",price:"2", rating:"2.7"}
+        {name : "Adarsh", subject:"Communications", price:"18", rating:"4.2"},
+        {name : "Aditya", subject:"Physics", price:"24", rating:"4.6"},
+        {name : "Yash Sharma", subject:"Chemistry",price:"19", rating:"4.7"}
     ];
     return(
         <div>
